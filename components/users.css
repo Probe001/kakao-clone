@@ -1,0 +1,110 @@
+.users {
+  display: flex;
+  width: 100%;
+  margin: 10px 0;
+}
+.users__left-column {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+.profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,0.1);
+  width: 45px;
+  height: 45px;
+  border-radius: 40%;
+  flex-shrink: 0;
+}
+.profile-image--lg {
+  width: 55px;
+  height: 55px;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 40%;
+}
+.profile-image i {
+  width: 100%;
+  height: 100%;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+.profile-image--plus {
+  background-color: rgba(0,0,0,0.05);
+  color: rgba(0,0,0,0.5);
+}
+.profile-image--cake {
+  background-color: rgb(255, 145, 163);
+  color: white;
+}
+.profile-image--friend {
+  background-color: rgb(133, 120, 219);
+  color: white;
+}
+
+.users__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: content-box;
+  max-width: 70%;
+  margin-left: 10px;
+}
+.users__main__title {
+  font-weight: 700;
+  font-size: 18px;
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.users__main__text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 5px;
+  max-width: 100%;
+}
+.users__right-column {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 40%;
+}
+.users__right-column__count {
+  margin-right: 5px;
+}
+
+.users__special-btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-radius: 20px;
+  max-width: 80%;
+}
+.users__special-btn span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-right: 10px;
+}
+.users__special-btn--pm {
+  border: 1px solid mediumturquoise;
+}
+.users__special-btn--pm i {
+  color: mediumaquamarine;
+}
+.users__special-btn--pr {
+  border: 1px solid rgb(255, 145, 163);
+}
+.users__special-btn--pr i {
+  color: rgb(255, 145, 163)
+}

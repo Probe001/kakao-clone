@@ -10,6 +10,7 @@
   border: 1px solid blue;
 }
 .header-bar__header {
+  font-family: 'Do Hyeon', 'Open Sans', sans-serif;
   font-size: 2rem;
 }
 .header-bar__menus {

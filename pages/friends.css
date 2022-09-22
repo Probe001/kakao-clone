@@ -1,0 +1,26 @@
+.friends__contents-block {
+  padding: 0 10px;
+}
+.friends__contents-block__header {
+  display: flex;
+  justify-content: space-between;
+  color: 1px solid rgba(0,0,0,0.5);
+  border-top: 1px solid rgba(0,0,0,0.5);
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.friends__profiles {
+  display: flex;
+  margin-bottom: 10px;
+}
+.friends__profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.friends__profile__name {
+  margin-top: 5px;
+}
