@@ -4,9 +4,11 @@
 @import './components/status-bar.css';
 @import './components/users.css';
 @import './components/nav-bar.css';
+@import './components/alarm.css';
 
 @import './pages/friends.css';
 @import './pages/login.css';
+@import './pages/chats.css';
 
 body {
   font-family: 'Sunflower', 'Do Hyeon', 'Open Sans', sans-serif;

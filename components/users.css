@@ -72,14 +72,19 @@
   text-overflow: ellipsis;
   margin-top: 5px;
   max-width: 100%;
+  font-size: 0.9rem;
 }
 .users__right-column {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
   width: 40%;
+  font-size: 0.95rem;
 }
+
 .users__right-column__count {
+  font-size: 1rem;
   margin-right: 5px;
 }
 
