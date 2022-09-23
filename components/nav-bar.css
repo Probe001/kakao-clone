@@ -5,14 +5,13 @@
   bottom: 0;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 20px;
   background-color: beige;
 }
 .nav-bar__icon {
-  color: rgba(0,0,0,0.5);
+  color: rgba(0,0,0,1);
+  opacity: 0.5;
   text-decoration: none;
   font-size: 24px;
-}
-.nav-bar--active {
-  color: black;
 }

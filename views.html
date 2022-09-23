@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
 
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
 
   <script defer src="https://kit.fontawesome.com/b7648ca7bd.js" crossorigin="anonymous"></script>
   <title>Kakao Talk Clone 2022</title>
 </head>
+
 <body>
   <div class="status-bar">
     <div class="status-bar__column">
@@ -35,17 +37,107 @@
           <i class="fa-solid fa-magnifying-glass"></i>
         </a>
         <a href="#" class="header-bar__menus__icon">
-          <i class="fa-solid fa-user-plus"></i>
-        </a>
-        <a href="#" class="header-bar__menus__icon">
-          <i class="fa-solid fa-music"></i>
-        </a>
-        <a href="#" class="header-bar__menus__icon">
           <i class="fa-solid fa-gear"></i>
         </a>
       </div>
     </div>
-    <div class="contents">
+    <ul class="view-nav-bar view-nav-bar__main">
+      <li class="view-nav-bar__main-column active">My뷰</li>
+      <li class="view-nav-bar__main-column">발견</li>
+      <li class="view-nav-bar__main-column">카카오TV</li>
+      <li class="view-nav-bar__main-column">코로나19</li>
+      <li class="view-nav-bar__main-column">잔여백신</li>
+    </ul>
+    <ul class="view-nav-bar view-nav-bar__sub">
+      <li class="view-nav-bar__sub-column">전체</li>
+      <li class="view-nav-bar__sub-column active">오늘 뭐볼까</li>
+      <li class="view-nav-bar__sub-column">유머</li>
+      <li class="view-nav-bar__sub-column">사는 이야기</li>
+      <li class="view-nav-bar__sub-column">연예</li>
+      <li class="view-nav-bar__sub-column">실시간 뉴스</li>
+    </ul>
+    <div class="view-contents">
+      <div class="news-card">
+        <div class="news-card__header">
+          <div class="profile-image">
+            <img src="https://cdn.khgames.co.kr/image/logo/favicon.png" alt="프로필사진">
+          </div>
+          <div class="news-card__header__title">
+            <div class="news-card__header__title__main">오늘의 게임뉴스</div>
+            <div class="news-card__header__title__sub">4일 전</div>
+          </div>
+          <div class="news-card__header__channelplus">
+            <i class="fa-solid fa-comment-medical"></i>
+          </div>
+          <div class="news-card__header__more">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+        <div class="news-card__contents">
+          <div class="news-card__contents__title">히오스, 드디어 서버 종료하나</div>
+          <div class="news-card__contents__sub-title">블리자드 엔터테인먼트의 AOS 장르 게임 ‘히어로즈 오브 더 스톰(이하 히오스)’이 신규 콘텐츠 업데이트 중단 계획을 공식화했다.</div>
+          <div class="news-card__contents__image">
+            <img src="./images/cardnews01.jpg" alt="카드뉴스 이미지"/>
+            <div class="news-card__contents__image__title">‘히오스’ 신규 콘텐츠 중단, 도전 종료 알린 ‘블리자드 올스타’</div>
+            <div class="news-card__contents__image__source">
+              <i class="fa-solid fa-comment-medical"></i>
+              <span>경향게임스(https://www.khgames.co.kr)</span>
+            </div>
+          </div>
+        </div>
+        <div class="news-card__footer">
+          <div class="news-card__footer__column">
+            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+            <span>공유하기</span>
+          </div>
+          <div class="news-card__footer__column">
+            <i class="fa-regular fa-heart"></i>
+            <span>좋아요</span>
+            <span>348</span>
+          </div>
+        </div>
+      </div>
+      <div class="news-card">
+        <div class="news-card__header">
+          <div class="profile-image">
+            <img src="//static.instiz.net/favicon.ico?220722" alt="프로필사진">
+          </div>
+          <div class="news-card__header__title">
+            <div class="news-card__header__title__main">인스티즈</div>
+            <div class="news-card__header__title__sub">1일 전</div>
+          </div>
+          <div class="news-card__header__channelplus">
+            <i class="fa-solid fa-comment-medical"></i>
+          </div>
+          <div class="news-card__header__more">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+        <div class="news-card__contents">
+          <div class="news-card__contents__title">앨런 다비리, 게이머들을 향한 충격 발언!</div>
+          <div class="news-card__contents__sub-title">Korean heroes 타격감을 좋아합니까? why? 당신의 학창생활 타격으로 대체되었다
+            </div>
+          <div class="news-card__contents__image">
+            <img src="./images/cardnews02.jpg" alt="카드뉴스 이미지"/>
+            <div class="news-card__contents__image__title">안녕하세요, Korean heroes. 나는 Alern Dabiri입니다.</div>
+            <div class="news-card__contents__image__source">
+              <i class="fa-solid fa-comment-medical"></i>
+              <span>https://gall.dcinside.com/board/view/?id=hos&no=969420</span>
+            </div>
+          </div>
+        </div>
+        <div class="news-card__footer">
+          <div class="news-card__footer__column">
+            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+            <span>공유하기</span>
+          </div>
+          <div class="news-card__footer__column">
+            <i class="fa-regular fa-heart"></i>
+            <span>좋아요</span>
+            <span>348</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <div class="nav-bar">
@@ -55,10 +147,10 @@
     <a href="./chats.html" class="nav-bar__icon">
       <i class="fa-regular fa-comment"></i>
     </a>
-    <a href="./views.html"class="nav-bar__icon nav-bar--active">
+    <a href="./views.html" class="nav-bar__icon active">
       <i class="fa-solid fa-eye"></i>
     </a>
-    <a href="./shop.html"class="nav-bar__icon">
+    <a href="./shop.html" class="nav-bar__icon">
       <i class="fa-solid fa-bag-shopping"></i>
     </a>
     <a href="./more.html" class="nav-bar__icon">
@@ -66,4 +158,5 @@
     </a>
   </div>
 </body>
+
 </html>

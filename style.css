@@ -9,6 +9,7 @@
 @import './pages/friends.css';
 @import './pages/login.css';
 @import './pages/chats.css';
+@import './pages/view.css';
 
 body {
   font-family: 'Sunflower', 'Do Hyeon', 'Open Sans', sans-serif;
@@ -23,6 +24,9 @@ body {
   position: absolute;
   top: 3rem;
   width: 100%;
+}
+.active {
+  opacity: 1;
 }
 
 :root {
