@@ -1,0 +1,227 @@
+.shop-nav-bar {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 0;
+}
+.shop-nav-bar__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+.shop-nav-bar__column i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.shop-event {
+  display: flex;
+  padding: 1vw;
+  background-color: rgb(173, 111, 72);
+  justify-content: center;
+  align-items: center;
+}
+.shop-event__left {
+  padding: 1rem;
+  margin-right: 1vh;
+}
+.shop-event__event {
+  padding: 0.3rem;
+  background-color: rgba(255,255,255,0.3);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  border-radius: 2rem;
+  margin-bottom: 3vh;
+}
+.shop-event__main {
+  font-size: 2.5vh;
+  color: white;
+  font-family: 'Do Hyeon', 'Open Sans', sans-serif;
+  font-weight: bold;
+  line-height: 2.5vh;
+}
+.shop-event__sub {
+  color: white;
+  margin-top: 0.5rem;
+}
+.shop-event__right {
+  position: relative;
+  box-sizing: border-box;
+}
+.shop-event__right img {
+  width: 12vh;
+  height: 15vh;
+  margin-right: 1rem;
+}
+.shop-event__menus {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+.shop-event__menu {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  padding: 0.3rem 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+.shop-event__menu:first-child {
+  margin-right: 0.3rem;
+}
+.shop-event__menu:last-child {
+  color: rgba(255,255,255,0.5);
+}
+.shop-event__menu__current-page {
+  color: rgba(255,255,255,1);
+}
+.shop-event__menu__total-page {
+  margin-right: 0.5rem;
+}
+
+
+.my-shop {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+}
+.my-shop__main {
+  margin: 0 0.5rem;
+  flex: 1;
+}
+.my-shop__main .user_id {
+  font-weight: bold;
+}
+.my-shop__sub {
+  display: flex;
+}
+.my-shop__sub__column:first-child {
+  margin-right: 1rem;
+}
+.my-shop__sub__column__value {
+  color: rgb(47, 138, 241);
+}
+
+.shopping-contents {
+  display: flex;
+}
+.shop-card {
+  padding: 1%;
+  background: rgba(0,0,0,0.05);
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  border-top: 5px solid rgba(0,0,0,0.2);
+}
+@media screen and (max-width: 1023px) {
+  .shop-card{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .shop-card {
+    width: 100%;
+    padding: 1rem;
+  }
+  .shopping-contents{
+    flex-direction: column;
+  }
+}
+.shop-card__header {
+  display: flex;
+  margin-bottom: 1.5%;
+  width: 100%;
+}
+.shop-card__profile-image {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.shop-card__header__main {
+  margin: 0 0.5rem;
+  flex: 1;
+}
+.shop-card__header__main__upper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.3rem;
+}
+.shop-card__header__main__upper__live {
+  background-color: tomato;
+  padding: 0.2rem 0.5rem;
+  color: white;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.3rem;
+}
+.shop-card__header__main__upper__views {
+  font-size: 0.8rem;
+}
+.shop-card__header__main__title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  flex: 1;
+}
+.shop-card__contents__images{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.shop-card__contents__images img{
+  width: 100%;
+  border-radius: 1rem;
+}
+.shop-card__contents__images img.quarter {
+  width: 49%;
+  margin: 0.5%;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+}
+
+.shop-card__contents__explain {
+  display: flex;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+.shop-card__contents__explain i:first-child{
+  color: rgb(255, 138, 71);
+}
+.shop-card__contents__explain span{
+  margin-left: 0.5rem;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.shop-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.shop-card__footer button {
+  background: transparent;
+  border: 1px solid rgba(0,0,0,0.5);
+  border-radius: 5px;
+  padding: 0.2rem 1rem;
+}
+.shop-card__footer__pages {
+  margin: 0 1rem;
+}
+.shop-card__footer__pages__total {
+  opacity: 0.5;
+}

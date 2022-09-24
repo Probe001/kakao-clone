@@ -10,6 +10,7 @@
 @import './pages/login.css';
 @import './pages/chats.css';
 @import './pages/view.css';
+@import './pages/shop.css';
 
 body {
   font-family: 'Sunflower', 'Do Hyeon', 'Open Sans', sans-serif;

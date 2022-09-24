@@ -22,6 +22,11 @@
   width: 55px;
   height: 55px;
 }
+.profile-image--xs {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 
 .profile-image img {
   width: 100%;

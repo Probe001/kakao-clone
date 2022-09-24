@@ -6,7 +6,6 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 .status-bar__column {
   display: flex;
