@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
 
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
 
   <script defer src="https://kit.fontawesome.com/b7648ca7bd.js" crossorigin="anonymous"></script>
   <title>Kakao Talk Clone 2022</title>
 </head>
+
 <body>
   <div class="status-bar">
     <div class="status-bar__column">
@@ -46,6 +48,118 @@
       </div>
     </div>
     <div class="contents">
+      <div class="more-wallet">
+        <div class="more-wallet__header">
+          <div class="more-wallet__header__main">
+            <span>지갑</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="more-wallet__header__sub">
+            <i class="fa-solid fa-shield-halved"></i>
+            <span>인증서</span>
+          </div>
+        </div>
+        <div class="more-wallet__contents">
+          <div class="more-wallet__contents__qr-code">
+            <i class="fa-solid fa-id-card"></i>
+            <span>톡명함, qr코드로 전달해 보세요.</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="more-wallet__contents__main">
+            <div class="more-wallet__contents__main__logo">
+              <i class="fa-solid fa-comment"></i>
+              <span>pay</span>
+            </div>
+            <div class="more-wallet__contents__main__money">
+              254,952원
+            </div>
+          </div>
+        </div>
+        <div class="more-wallet__footer">
+          <div class="more-wallet__footer__menus">
+            <span>송금</span>
+            <span>결제</span>
+            <span>자산</span>
+          </div>
+          <div class="more-wallet__footer__column">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>구매내역</span>
+          </div>
+        </div>
+      </div>
+      <div class="more-menus">
+        <div class="more-menus__menu">
+          <i class="fa-solid fa-gift"></i>
+          <div class="more-menus__menu__name">선물하기</div>
+        </div>
+        <div class="more-menus__menu">
+          <i class="fa-solid fa-store"></i>
+          <div class="more-menus__menu__name">쇼핑하기</div>
+        </div>
+        <div class="more-menus__menu">
+          <i class="fa-brands fa-monero"></i>
+          <div class="more-menus__menu__name">메이커스</div>
+        </div>
+        <div class="more-menus__menu">
+          <i class="fa-solid fa-kiwi-bird"></i>
+          <div class="more-menus__menu__name">프렌즈</div>
+        </div>
+        <div class="more-menus__menu">
+          <i class="fa-regular fa-face-smile-wink"></i>
+          <div class="more-menus__menu__name">이모티콘</div>
+        </div>
+        <div class="more-menus__menu">
+          <i class="fa-solid fa-box-archive"></i>
+          <div class="more-menus__menu__name">톡서랍</div>
+        </div>
+        <div class="more-menus__menu">
+          <i class="fa-solid fa-envelope"></i>
+          <div class="more-menus__menu__name">메일</div>
+        </div>
+        <div class="more-menus__menu">
+          <i class="fa-solid fa-calendar-check"></i>
+          <div class="more-menus__menu__name">캘린더</div>
+        </div>
+        <div class="more-menus__menu">
+          <i class="fa-solid fa-gamepad"></i>
+          <div class="more-menus__menu__name">게임</div>
+        </div>
+        <div class="more-menus__menu">
+          <i class="fa-solid fa-glasses"></i>
+          <div class="more-menus__menu__name">패션</div>
+        </div>
+        <div class="more-menus__menu">
+          <i class="fa-solid fa-utensils"></i>
+          <div class="more-menus__menu__name">주문하기</div>
+        </div>
+        <div class="more-menus__menu">
+          <i class="fa-solid fa-music"></i>
+          <div class="more-menus__menu__name">멜론티켓</div>
+        </div>
+        <div class="more-menus__menu">
+          <i class="fa-solid fa-location-dot"></i>
+          <div class="more-menus__menu__name">카카오맵</div>
+        </div>
+        <div class="more-menus__menu">
+          <i class="fa-regular fa-comments"></i>
+          <div class="more-menus__menu__name">오픈채팅</div>
+        </div>
+        <div class="more-menus__menu">
+          <i class="fa-regular fa-address-card"></i>
+          <div class="more-menus__menu__name">톡명함</div>
+        </div>
+        <div class="more-menus__menu">
+          <i class="fa-solid fa-border-all"></i>
+          <div class="more-menus__menu__name">전체서비스</div>
+        </div>
+      </div>
+      <div class="ad">
+        <img src="./images/advertisement01.jpg" alt="" class="ad__image">
+      </div>
+      <div class="ad">
+        <div class="ad__title">카카오 나우</div>
+        <img src="./images/advertisement02.jpg" alt="" class="ad__image">
+      </div>
     </div>
   </div>
   <div class="nav-bar">
@@ -55,10 +169,10 @@
     <a href="./chats.html" class="nav-bar__icon">
       <i class="fa-regular fa-comment"></i>
     </a>
-    <a href="./views.html"class="nav-bar__icon">
+    <a href="./views.html" class="nav-bar__icon">
       <i class="fa-regular fa-eye"></i>
     </a>
-    <a href="./shop.html"class="nav-bar__icon">
+    <a href="./shop.html" class="nav-bar__icon">
       <i class="fa-solid fa-bag-shopping"></i>
     </a>
     <a href="./more.html" class="nav-bar__icon active">
@@ -66,4 +180,5 @@
     </a>
   </div>
 </body>
+
 </html>

@@ -1,0 +1,103 @@
+.more-wallet  {
+  background-color: var(--yellow);
+  padding: 1rem;
+}
+.more-wallet__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.more-wallet__header__main {
+  font-size: 1rem;
+  flex: 1;
+}
+.more-wallet__header__main span {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.more-wallet__contents__qr-code {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+}
+.more-wallet__contents__qr-code span {
+  display: flex;
+  font-weight: 500;
+  flex: 1;
+  margin-left: 0.5rem;
+  text-transform: uppercase;
+}
+
+.more-wallet__contents__main {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+.more-wallet__contents__main__logo {
+  flex: 1;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.more-wallet__contents__main__logo span {
+  margin-left: 0.2rem;
+}
+.more-wallet__contents__main__money {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.more-wallet__footer {
+  display: flex;
+  align-items: center;
+}
+.more-wallet__footer__menus {
+  flex: 1;
+  font-size: 0.9rem;
+}
+.more-wallet__footer__menus span:nth-child(2) {
+  margin: 0 2rem 0;
+}
+
+.more-menus {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.more-menus__menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  width: 12.5%;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 700px) {
+  .more-menus__menu {
+    width: 25%;
+  }
+}
+.more-menus__menu__name {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.ad {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.ad__title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.ad__image {
+  width: 100%;
+  border-radius: 1rem;
+}

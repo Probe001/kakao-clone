@@ -110,6 +110,7 @@
 
 .shopping-contents {
   display: flex;
+  flex-wrap: wrap;
 }
 .shop-card {
   padding: 1%;
@@ -130,9 +131,6 @@
   .shop-card {
     width: 100%;
     padding: 1rem;
-  }
-  .shopping-contents{
-    flex-direction: column;
   }
 }
 .shop-card__header {
